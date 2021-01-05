@@ -6,6 +6,7 @@
 		#header h1 { color: red; }
 		#section h1 { color: orange; }
         #section > p {color:cornsilk; background-color:darkblue;}
+        table>tbody>tr>th{color:darkorange;}
 	</style>
 </head>
 <body>
@@ -15,10 +16,23 @@
 			<h1>Navigation</h1>
         </div>
         <h2>Navigation</h2>
-	</div>
-	<div id="section">
+    </div>
+    <div id="section">
 		<h1 class="title">Lorem ipsum</h1>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-	</div>
+    </div>
+    <hr>
+    <h1>table 태그 요소 선택시 자손선택자 주의사항</h1>
+
+    <table border="1">
+        <tr>
+            <th>이름</th>
+            <th>지역</th>
+        </tr>
+        <tr>
+            <td>윤인성</td>
+            <td>서울특별시 강서구 내발산동</td>
+        </tr>
+    </table>
 </body>
 </html>
