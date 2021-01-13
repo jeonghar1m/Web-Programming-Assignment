@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1, p {
+            width: 300px; /* 문자열의 총 크기를 300px로 할당 */
+        }
+        .ellipsis {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    </style>
+</head>
+<body>
+    <!-- 글자를 숨겨주는 스크립트 -->
+    <h1 class="ellipsis">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h1>
+    <p class="ellipsis">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+</body>
+</html>
